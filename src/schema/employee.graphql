@@ -1,0 +1,12 @@
+type Address{
+    street: String
+    city: String
+    state: String
+    postalCode: String
+}
+
+type Employee {
+    name: String
+    employeeID: Int
+    address: [Address]
+}

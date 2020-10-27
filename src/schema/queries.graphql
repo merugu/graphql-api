@@ -1,0 +1,7 @@
+type Query {
+    "Return a single employee record for a given employeeID"
+    getEmployeeByID(employeeID: ID!): Employee
+
+    "Return list of employee records for a given query"
+    findEmployee(query: EmployeeQuery): [Employee]
+}
