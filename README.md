@@ -1,3 +1,5 @@
+Will update the readme soon
+
 ### Example query 1:
 ```
 {
